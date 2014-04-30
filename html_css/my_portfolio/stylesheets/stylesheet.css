@@ -1,0 +1,8 @@
+.pics {
+	display:inline-block;
+	float:left;
+}
+
+#first {
+	clear:left;
+}

@@ -1,0 +1,58 @@
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear:both;
+}
+
+
+body {
+  background: #eee;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.toc {
+	box-sizing:border-box;
+	padding:20px;
+	width:25%;
+	background:white;
+	float:left;	
+	clear: left;
+}
+
+.blog-post {
+	box-sizing:border-box;
+	padding:20px;
+	width:50%;
+	float:left;
+}
+
+.profile {
+	width:25%;
+	background:white;
+	float:left;
+}
+
+ul.navbar {
+	list-style: none;
+	margin: 0 20px;
+	padding: 0;
+}
+
+ul.navbar li a {
+	background:#ccc;
+	float:left;
+	padding: 8px 20px;
+	margin-right: 6px;
+}
+
+.navbar {
+	list-style:none;
+	margin-bottm: 20px;
+}
